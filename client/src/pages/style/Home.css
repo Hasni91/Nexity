@@ -1,0 +1,72 @@
+h1{
+    color: #81b71a;
+    text-align: center;
+}
+.add_prodects{
+    border : 2px solid #81b71a;
+    border-radius: 20px;
+    text-align: center;
+    width: 40vw;
+    margin: 5vh auto;
+}
+input{
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    border: 2px solid #81b71a;
+    padding-left: 5px;
+    width: 50%;
+    height: 20px;
+}
+
+input:focus {
+    outline:none;
+}
+textarea{
+    margin-bottom: 2vh;
+    border: 2px solid #81b71a;
+    padding-left: 5px;
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    overflow: auto;
+}
+textarea:focus {
+    outline:none;
+}
+.btn{
+    margin-bottom: 2vh;
+    background-color: #81b71a;
+    color: white;
+    width: 25%;
+    height: 25px;
+    cursor: pointer;
+    border: #81b71a;
+    border-radius: 20px;
+}
+
+.products{
+    border : 2px solid #81b71a;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 5vh auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.products div{
+    width: 5%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.modal h3{
+    color: black;
+}
+.modal p{
+    color: black;
+}
